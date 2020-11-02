@@ -71,6 +71,7 @@ public class TestRoutingService {
 
         String usa = "USA";
         String jpn = "JPN";
+        String bra = "BRA";
         routingService.searchRoutingPath(jpn, usa);
 
     }
