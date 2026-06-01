@@ -1,4 +1,4 @@
-● Spring Boot App searching routes between country names according to geografical localtion 
+● Spring Boot App searching routes between country names according to geografical location 
 
 ● Data link: https://raw.githubusercontent.com/mledoze/countries/master/countries.json
 
