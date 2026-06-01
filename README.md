@@ -1,13 +1,18 @@
-● Spring Boot App
+● Spring Boot App searching routes between country names according to geografical localtion 
+
 ● Data link: https://raw.githubusercontent.com/mledoze/countries/master/countries.json
 
 ● The application exposes REST endpoint /routing/{origin}/{destination} that
 returns a list of border crossings to get from origin to destination
 
 ● Single route is returned if the journey is possible
+
 ● If there is no land crossing, the endpoint returns HTTP 400
+
 ● Countries are identified by cca3 field in country data
+
 ● HTTP request sample (land route from Czech Republic to Italy):
+
 ○ GET /routing/CZE/ITA HTTP/1.0 :
 {
 "route": ["CZE", "AUT", "ITA"]
